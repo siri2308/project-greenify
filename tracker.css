@@ -1,0 +1,51 @@
+.header{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    font-weight: bold;
+    font-size: 35px;
+}
+.tracker-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.track-button{
+    margin: 10px;
+    height: 30px;
+    width: 250px;
+}
+.tracker-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    background-color:green;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+input{
+    margin: 10px;
+    height: 30px;
+    width: 250px;
+}
+label{
+    display: block;
+    margin-bottom : 10px;
+}
